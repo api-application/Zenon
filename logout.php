@@ -2,4 +2,4 @@
 session_start();
 unset($_SESSION['user']);
 session_destroy();
-header("index.php");
+header('Location: index.php');
