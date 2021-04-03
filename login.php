@@ -15,4 +15,4 @@ if (!empty($_POST['login']) && !empty($_POST['password']))
     }
 }
 
-header("index.php");      
+header('Location: index.php');    
