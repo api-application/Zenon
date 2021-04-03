@@ -15,4 +15,4 @@ if (!empty($_POST['login']) && !empty($_POST['password']))
     }
 }
 
-header("Location: https://zenon-magnapark.herokuapp.com/index.php");      
+header("index.php");      
