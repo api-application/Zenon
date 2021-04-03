@@ -2,4 +2,4 @@
 session_start();
 unset($_SESSION['user']);
 session_destroy();
-header("Location: http://localhost:8003/index.php");
+header("Location: https://zenon-magnapark.herokuapp.com/index.php");
