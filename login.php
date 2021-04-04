@@ -15,4 +15,4 @@ if (!empty($_POST['login']) && !empty($_POST['password']))
     }
 }
 
-header('Location: index.php');    
+header('Location: https://magnapark.herokuapp.com/index.php');    
